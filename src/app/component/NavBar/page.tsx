@@ -12,7 +12,9 @@ const NavBar = () => {
           <li>
             <Image src={`/images/logo.png`} alt="logo" width={40} height={50} />
           </li>
-          <li className="font-bold text-2xl">Nehal</li>
+          <Link href={`/`}>
+            <li className="font-bold text-2xl cursor-pointer">Nehal</li>
+          </Link>
         </ul>
         <div>
           <ul className="hidden md:flex gap-10 items-center ">
