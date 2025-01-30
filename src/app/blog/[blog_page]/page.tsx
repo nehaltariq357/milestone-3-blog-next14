@@ -8,12 +8,12 @@ import Comment_Section from '@/app/component/Comment_Section/page';
 
 const BlogPage = ({ params }: {params:{blog_page:string}}) => {
   return (
-    <div className="px-4 md:px-8 lg:px-16 bg-gray-50">
+    <div className="px-4 md:px-8 lg:px-16 bg-gray-50 h-[100%]">
       {recentPost
         .filter((post) => String(post.id) === params.blog_page)
         .map((post) => (
           <div key={post.id}>
-            {/* Header Section */}
+            {/* Header Section ******/}
             <div className="flex flex-col items-center justify-center space-y-10">
               <h1 className="text-3xl md:text-5xl lg:text-6xl font-extrabold text-center text-customPurple mb-6 leading-tight my-10 cursor-pointer">
                 {post.title}
@@ -30,7 +30,7 @@ const BlogPage = ({ params }: {params:{blog_page:string}}) => {
             </div>
 
             {/* Detailed Content Section */}
-            <div className="my-20 space-y-8">
+            <div className="my-20 space-y-8 pb-16">
               <h1 className="text-3xl md:text-5xl lg:text-6xl font-extrabold text-center text-customPurple mb-6 leading-tight cursor-pointer">content</h1>
               {post.DetailedPage.map((detailed, i) => (
                 <div key={i}>

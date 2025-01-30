@@ -7,7 +7,7 @@ const NavBar = () => {
   const [isopen, setopen] = useState(false);
   return (
     <main className="">
-      <div className="flex justify-around items-center h-16">
+      <div className="flex justify-around items-center h-16 bg-white text-black">
         <ul className="flex gap-5 items-center">
           <li>
             <Image src={`/images/logo.png`} alt="logo" width={40} height={50} />

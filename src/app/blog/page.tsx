@@ -9,7 +9,7 @@ const Blog = () => {
   const popularPost = recentPost.filter((p) => p.id >= 5); // filter id
 
   return (
-    <main className="px-4 md:px-10 lg:px-20 md:mx-10 min-h-screen">
+    <main className="px-4 md:px-10 lg:px-20 md:mx-10 min-h-screen bg-white text-black">
       <h1 className="text-3xl font-bold my-10">Our Recent Post</h1>
 
       <div>

@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 const Footer = () => {
   return (
-    <main>
+    <main className="bg-white text-black">
       <div className="py-10 bg-customPurple h-auto md:h-96 text-white flex flex-col justify-center items-center space-y-7 px-10 md:px-8">
         <h1 className="font-semibold text-2xl md:text-3xl lg:text-5xl w-full md:w-[60%] lg:w-[40%] text-center">
           Get our stories delivered From us to your inbox weekly.
