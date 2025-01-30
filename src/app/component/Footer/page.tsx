@@ -22,7 +22,7 @@ const Footer = () => {
           after 9pm, you will get a response the following day.
         </p>
       </div>
-      {/* 2nd div */}
+      {/* 2nd div ****/}
       <div className="py-10 flex flex-col justify-center items-center h-auto md:h-96 space-y-10 px-5 md:px-10">
         {/* Logo and Name */}
         <ul className="flex flex-col md:flex-row gap-3 md:gap-5 items-center">
